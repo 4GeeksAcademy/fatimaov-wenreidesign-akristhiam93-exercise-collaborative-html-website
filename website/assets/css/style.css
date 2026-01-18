@@ -16,4 +16,12 @@ body{
 
 .hero h2 { 
     font-size: 5rem; 
+    background: #BDBDBD;
+}
+
+/* services */
+.services-img-2 {
+    background-image: url(../img/2.jpg);
+    background-size: cover;
+    border-radius: 100%;
 }
