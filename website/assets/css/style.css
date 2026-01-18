@@ -1,5 +1,5 @@
 body{
-    background: #BDBDBD;
+    background: white;
 }
 
 .hero {
@@ -17,3 +17,4 @@ body{
 .hero h2 { 
     font-size: 5rem; 
 }
+
