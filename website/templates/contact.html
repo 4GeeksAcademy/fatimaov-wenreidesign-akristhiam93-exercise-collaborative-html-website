@@ -1,2 +1,30 @@
-<!-- your html code here -->
-<p>Hello, I'm contact.html</p>
+<div class="contact-container">
+    <h2>Contacto</h2>
+    <p class="intro-text">
+        Estamos aquí para ayudarte. Si tienes alguna duda o sugerencia, déjanos un mensaje. 
+        Si ya tienes una incidencia abierta, puedes consultar su estado debajo.
+    </p>
+    
+    <div class="form-card">
+        <form action="#" method="POST">
+            <div class="form-group">
+                <label for="email">Tu E-mail</label>
+                <input type="email" id="email" name="email" placeholder="ejemplo@correo.com" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="message">Tu mensaje</label>
+                <textarea id="message" name="message" placeholder="Escribe aquí tu consulta..." required></textarea>
+            </div>
+            
+            <div class="button-container">
+                <button type="submit" class="btn-submit">Enviar mensaje</button>
+            </div>
+        </form>
+    </div>
+
+    <div class="tracking-section">
+        <p>¿Ya tienes un número de caso?</p>
+        <a href="/seguimiento" class="btn-secondary">Hacer seguimiento de incidencia</a>
+    </div>
+</div>
